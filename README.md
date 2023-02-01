@@ -1,4 +1,4 @@
-# famous-dev-theme README
+# Famous Dev Theme
 
 ## Working with Markdown
 
