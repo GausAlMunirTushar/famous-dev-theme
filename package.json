@@ -3,6 +3,16 @@
   "displayName": "Famous Dev Theme",
   "description": "",
   "version": "0.0.1",
+  "publisher": "GausAlMunirTushar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GausAlMunirTushar/famous-dev-theme"
+  },
+  "keywords": [
+    "famous-dev-theme",
+    "gausalmunirtushar",
+    "Gaus Theme"
+  ],
   "engines": {
     "vscode": "^1.74.0"
   },
