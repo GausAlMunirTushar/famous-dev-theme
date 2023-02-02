@@ -1,7 +1,7 @@
 {
   "name": "famous-dev-theme",
   "displayName": "Famous Dev Theme",
-  "description": "",
+  "description": "Famous Dev Theme by Gaus Al Munir Tushar",
   "version": "0.0.3",
   "publisher": "GausAlMunirTushar",
   "repository": {
@@ -9,9 +9,13 @@
     "url": "https://github.com/GausAlMunirTushar/famous-dev-theme"
   },
   "keywords": [
-    "famous-dev-theme",
-    "gausalmunirtushar",
-    "Gaus Theme"
+    "famous dev theme",
+    "famous",
+    "Gaus Al Munir Tushar",
+    "Gaus Theme",
+    "Dark Theme",
+    "famous theme",
+    "Famous Dev"
   ],
   "icon": "icon.png",
   "engines": {
@@ -20,6 +24,7 @@
   "categories": [
     "Themes"
   ],
+  "pricing": "free",
   "contributes": {
     "themes": [
       {
