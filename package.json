@@ -2,7 +2,7 @@
   "name": "famous-dev-theme",
   "displayName": "Famous Dev Theme",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "publisher": "GausAlMunirTushar",
   "repository": {
     "type": "git",
@@ -13,6 +13,7 @@
     "gausalmunirtushar",
     "Gaus Theme"
   ],
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -22,7 +23,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "famous-dev-theme",
+        "label": "Famous Dev Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/famous-dev-theme-color-theme.json"
       }
