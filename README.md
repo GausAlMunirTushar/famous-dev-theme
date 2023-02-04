@@ -1,5 +1,5 @@
 # Famous Dev Theme
-<img src="./src/images/famous-dev-theme.png">
+<img src="./famous-dev-theme.png">
 
 ## Installation
 Open Extensions sidebar panel in VS Code. View → Extensions
