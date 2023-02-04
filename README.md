@@ -1,4 +1,4 @@
-# Famous Dev Theme Offcial's
+# Famous Dev Theme
 <img src="./src/images/famous-dev-theme.png">
 
 ## Installation
@@ -14,4 +14,4 @@ Optional: Use the recommended settings below for best experience
 
 
 
-<p>Copyright © 2023 Gaus Al Munir Tushar</p>
+<p align="center">Copyright © 2023 Gaus Al Munir Tushar</p>

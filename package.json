@@ -2,12 +2,13 @@
   "name": "famous-dev-theme",
   "displayName": "Famous Dev Theme",
   "description": "Famous Dev Theme by Gaus Al Munir Tushar",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "GausAlMunirTushar",
   "repository": {
     "type": "git",
     "url": "https://github.com/GausAlMunirTushar/famous-dev-theme"
   },
+  "license": "MIT",
   "keywords": [
     "famous dev theme",
     "famous",
