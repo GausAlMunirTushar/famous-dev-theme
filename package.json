@@ -1,8 +1,8 @@
 {
   "name": "famous-dev-theme",
   "displayName": "Famous Dev Theme",
-  "description": "Famous Dev Theme by Gaus Al Munir Tushar",
-  "version": "0.0.1",
+  "description": "Famous Dev Theme by Gaus Al Munir Tushar - A premium, eye-friendly, and modern syntax-highlighting theme optimized for long coding sessions",
+  "version": "1.0.0",
   "publisher": "GausAlMunirTushar",
   "repository": {
     "type": "git",
@@ -16,7 +16,11 @@
     "Gaus Theme",
     "Dark Theme",
     "famous theme",
-    "Famous Dev"
+    "Famous Dev",
+    "light theme",
+    "midnight theme",
+    "eye-friendly theme",
+    "productivity theme"
   ],
   "icon": "icon.png",
   "engines": {
@@ -29,9 +33,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "Famous Dev Theme",
+        "label": "Famous Dev Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/famous-dev-theme-color-theme.json"
+        "path": "./themes/famous-dev-dark.json"
+      },
+      {
+        "label": "Famous Dev Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/famous-dev-midnight.json"
+      },
+      {
+        "label": "Famous Dev Light",
+        "uiTheme": "vs",
+        "path": "./themes/famous-dev-light.json"
       }
     ]
   }
