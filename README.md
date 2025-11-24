@@ -1,7 +1,5 @@
-# Famous Dev Theme
-
 <div align="center">
-  <img src="./famous-dev-theme.png" alt="Famous Dev Theme" width="200" height="200">
+  <img src="./icon.png" alt="Famous Dev Theme" width="100" height="100">
   <h1>Famous Dev Theme</h1>
   <p>A premium, eye-friendly, and modern syntax-highlighting theme optimized for long coding sessions</p>
 </div>
@@ -17,19 +15,19 @@
 
 ## 🎨 Theme Variants
 
-### Famous Dev Dark
+#### Famous Dev Dark
 
 Premium dark mode with balanced contrast and minimal glow aesthetics, best suited for long coding sessions.
 
-### Famous Dev Midnight
+#### Famous Dev Midnight
 
 Darker background with dimmed accents and focus-oriented coding, less saturation for lower eye strain.
 
-### Famous Dev Light
+#### Famous Dev Light
 
 Clean, minimal light theme with soft contrast, high readability in daylight conditions.
 
-## 📦 Installation
+### Installation
 
 1. Open Extensions sidebar panel in VS Code: `View → Extensions`
 2. Search for "Famous Dev Theme" - find the one by Gaus Al Munir Tushar
@@ -38,7 +36,7 @@ Clean, minimal light theme with soft contrast, high readability in daylight cond
 5. Type "Preferences: Color Theme" and select it
 6. Choose one of the three Famous Dev Theme variants
 
-## 🌐 Supported Languages
+### Supported Languages
 
 Famous Dev Theme provides comprehensive syntax highlighting for:
 
@@ -48,30 +46,28 @@ Famous Dev Theme provides comprehensive syntax highlighting for:
 - JSON, Markdown, YAML
 - Bash, ENV files
 
-## 🎯 Design Principles
+### Design Principles
 
 - **Accessibility First**: All color combinations meet WCAG contrast requirements
 - **Consistency**: Same color logic and syntax priorities across all theme variants
 - **Focus**: Reduced eye strain with carefully selected color palettes
 - **Modern**: Contemporary design with clean, readable syntax highlighting
 
-## 🤝 Contributing
+### Contributing
 
 We welcome contributions! Please see our [contributing guidelines](CONTRIBUTING.md) for more details.
 
-## License
+### License
 
 This theme is released under the [MIT License](LICENSE.md).
 
-## Support
+### Support
 
 If you encounter any issues or have suggestions, please [open an issue](https://github.com/GausAlMunirTushar/famous-dev-theme/issues) on GitHub.
 
-## 🙏 Acknowledgements
+### 🙏 Acknowledgements
 
 Created by Gaus Al Munir Tushar. A premium theme for developers who value aesthetics and productivity.
-
----
 
 <div align="center">
   <p>Copyright © 2025 Gaus Al Munir Tushar</p>
