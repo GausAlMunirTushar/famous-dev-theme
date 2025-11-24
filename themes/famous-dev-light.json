@@ -403,7 +403,7 @@
       }
     },
     {
-      "name": "JSX/TSX",
+      "name": "JSX/TSX Elements",
       "scope": [
         "meta.jsx",
         "meta.jsx.children",
@@ -414,6 +414,310 @@
       ],
       "settings": {
         "foreground": "#2d323c"
+      }
+    },
+    {
+      "name": "JSX/TSX Tags",
+      "scope": [
+        "meta.jsx entity.name.tag",
+        "meta.jsx entity.name.tag punctuation.definition.tag",
+        "meta.jsx entity.name.tag punctuation.definition.tag.begin",
+        "meta.jsx entity.name.tag punctuation.definition.tag.end",
+        "punctuation.definition.tag.jsx",
+        "meta.tag.jsx",
+        "meta.tag.without.attributes.jsx",
+        "meta.tag.js",
+        "meta.tag.without.attributes.js"
+      ],
+      "settings": {
+        "foreground": "#e74c3c"
+      }
+    },
+    {
+      "name": "JSX/TSX Component Names",
+      "scope": [
+        "support.class.component",
+        "entity.name.type.class.jsx",
+        "support.class.component.jsx",
+        "entity.name.function.react"
+      ],
+      "settings": {
+        "foreground": "#f39c12",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JSX/TSX Attributes",
+      "scope": [
+        "meta.jsx entity.other.attribute-name",
+        "meta.jsx string",
+        "entity.other.attribute-name.jsx"
+      ],
+      "settings": {
+        "foreground": "#8e44ad"
+      }
+    },
+    {
+      "name": "React Hooks",
+      "scope": [
+        "variable.other.readwrite.js",
+        "variable.other.constant.js",
+        "meta.function-call.js variable.function.js"
+      ],
+      "settings": {
+        "foreground": "#3498db"
+      }
+    },
+    {
+      "name": "JavaScript Classes",
+      "scope": [
+        "meta.class.js",
+        "entity.name.type.class.js",
+        "variable.other.readwrite.alias.js",
+        "support.class.builtin.js"
+      ],
+      "settings": {
+        "foreground": "#f39c12",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JavaScript Methods",
+      "scope": [
+        "meta.method.js",
+        "entity.name.function.method.js",
+        "variable.other.property.js"
+      ],
+      "settings": {
+        "foreground": "#3498db"
+      }
+    },
+    {
+      "name": "JavaScript Imports/Exports",
+      "scope": [
+        "meta.import.js",
+        "meta.export.js",
+        "keyword.control.import.js",
+        "keyword.control.export.js",
+        "meta.import variable.other.readwrite.js",
+        "meta.export variable.other.readwrite.js"
+      ],
+      "settings": {
+        "foreground": "#8e44ad"
+      }
+    },
+    {
+      "name": "JavaScript Promises and Async",
+      "scope": [
+        "support.type.object.promise.js",
+        "keyword.operator.expression.await.js",
+        "storage.type.js"
+      ],
+      "settings": {
+        "foreground": "#e67e22",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JavaScript Properties",
+      "scope": [
+        "variable.other.property.js",
+        "meta.property.object.js"
+      ],
+      "settings": {
+        "foreground": "#2d323c"
+      }
+    },
+    {
+      "name": "JavaScript Function Parameters",
+      "scope": [
+        "variable.parameter.function.js",
+        "meta.function.parameters.js"
+      ],
+      "settings": {
+        "foreground": "#e67e22"
+      }
+    },
+    {
+      "name": "JavaScript Destructuring",
+      "scope": [
+        "meta.object-binding-pattern.js",
+        "meta.array-binding-pattern.js",
+        "variable.other.readwrite.js variable.other.readwrite.js"
+      ],
+      "settings": {
+        "foreground": "#e67e22"
+      }
+    },
+    {
+      "name": "React Specific Hooks",
+      "scope": [
+        "variable.function.useState",
+        "variable.function.useEffect",
+        "variable.function.useContext",
+        "variable.function.useReducer",
+        "variable.function.useCallback",
+        "variable.function.useMemo",
+        "variable.function.useRef",
+        "variable.function.useLayoutEffect",
+        "variable.function.useImperativeHandle",
+        "variable.function.useDebugValue",
+        "variable.function.useTransition",
+        "variable.function.useDeferredValue"
+      ],
+      "settings": {
+        "foreground": "#8e44ad",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Next.js Components",
+      "scope": [
+        "variable.other.readwrite.js",
+        "support.class.component.next",
+        "variable.other.constant.property",
+        "support.type.next",
+        "variable.other.property.js"
+      ],
+      "settings": {
+        "foreground": "#1abc9c"
+      }
+    },
+    {
+      "name": "Next.js Imports",
+      "scope": [
+        "variable.other.readwrite.next",
+        "support.module.next",
+        "support.variable.next"
+      ],
+      "settings": {
+        "foreground": "#e67e22"
+      }
+    },
+    {
+      "name": "Vue Template Tags",
+      "scope": [
+        "meta.tag.template.vue",
+        "entity.name.tag.template.html",
+        "punctuation.definition.tag.begin.html.vue",
+        "punctuation.definition.tag.end.html.vue"
+      ],
+      "settings": {
+        "foreground": "#27ae60"
+      }
+    },
+    {
+      "name": "Vue Script Tags",
+      "scope": [
+        "meta.tag.script.vue",
+        "entity.name.tag.script.html",
+        "punctuation.definition.tag.begin.html.vue",
+        "punctuation.definition.tag.end.html.vue"
+      ],
+      "settings": {
+        "foreground": "#8e44ad"
+      }
+    },
+    {
+      "name": "Vue Style Tags",
+      "scope": [
+        "meta.tag.style.vue",
+        "entity.name.tag.style.html",
+        "punctuation.definition.tag.begin.html.vue",
+        "punctuation.definition.tag.end.html.vue"
+      ],
+      "settings": {
+        "foreground": "#f39c12"
+      }
+    },
+    {
+      "name": "Vue Directives",
+      "scope": [
+        "entity.other.attribute-name.html.vue",
+        "meta.directive.vue",
+        "punctuation.separator.key-value.html"
+      ],
+      "settings": {
+        "foreground": "#3498db",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Vue Component Names",
+      "scope": [
+        "support.class.component.vue",
+        "entity.name.tag.other.html",
+        "meta.tag.other.html"
+      ],
+      "settings": {
+        "foreground": "#e67e22",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Angular Components",
+      "scope": [
+        "support.class.component.angular",
+        "entity.name.type.class.angular",
+        "entity.other.ng-binding-name"
+      ],
+      "settings": {
+        "foreground": "#e67e22",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Angular Directives",
+      "scope": [
+        "entity.other.attribute-name.html.angular",
+        "punctuation.definition.attribute.angular"
+      ],
+      "settings": {
+        "foreground": "#3498db",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Svelte Tags",
+      "scope": [
+        "meta.tag.svelte",
+        "entity.name.tag.svelte",
+        "punctuation.definition.tag.begin.svelte",
+        "punctuation.definition.tag.end.svelte"
+      ],
+      "settings": {
+        "foreground": "#8e44ad"
+      }
+    },
+    {
+      "name": "Svelte Script Tags",
+      "scope": [
+        "meta.script.svelte",
+        "entity.name.tag.script.svelte"
+      ],
+      "settings": {
+        "foreground": "#f39c12"
+      }
+    },
+    {
+      "name": "Svelte Style Tags",
+      "scope": [
+        "meta.style.svelte",
+        "entity.name.tag.style.svelte"
+      ],
+      "settings": {
+        "foreground": "#27ae60"
+      }
+    },
+    {
+      "name": "Svelte Component Names",
+      "scope": [
+        "support.class.component.svelte",
+        "entity.name.tag.svelte"
+      ],
+      "settings": {
+        "foreground": "#e67e22",
+        "fontStyle": "bold"
       }
     },
     {
@@ -598,7 +902,10 @@
       "name": "Python Functions",
       "scope": [
         "meta.function-call.python",
-        "support.function.builtin.python"
+        "support.function.builtin.python",
+        "entity.name.function.python",
+        "variable.function.python",
+        "meta.function-call.generic.python"
       ],
       "settings": {
         "foreground": "#3498db"
@@ -608,7 +915,10 @@
       "name": "Python Variables",
       "scope": [
         "variable.other.python",
-        "meta.function-call.arguments.python"
+        "meta.function-call.arguments.python",
+        "support.variable.magic.python",
+        "variable.other.readwrite.python",
+        "variable.other.member.python"
       ],
       "settings": {
         "foreground": "#2d323c"
@@ -617,10 +927,97 @@
     {
       "name": "Python Parameters",
       "scope": [
-        "variable.parameter.function.python"
+        "variable.parameter.function.python",
+        "meta.function.parameters.python"
       ],
       "settings": {
         "foreground": "#e67e22"
+      }
+    },
+    {
+      "name": "Python Classes",
+      "scope": [
+        "entity.name.type.class.python",
+        "support.type.python",
+        "meta.class.python",
+        "entity.other.inherited-class.python"
+      ],
+      "settings": {
+        "foreground": "#f39c12",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python Decorators",
+      "scope": [
+        "meta.function.decorator.python",
+        "entity.name.function.decorator.python",
+        "punctuation.definition.annotation.python"
+      ],
+      "settings": {
+        "foreground": "#e67e22",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python Keywords",
+      "scope": [
+        "keyword.control.python",
+        "storage.type.function.python",
+        "storage.modifier.global.python",
+        "keyword.operator.logical.python",
+        "keyword.control.flow.python",
+        "keyword.control.conditional.python",
+        "keyword.control.trycatch.python",
+        "keyword.control.loop.python",
+        "keyword.control.import.python"
+      ],
+      "settings": {
+        "foreground": "#8e44ad",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python Constants",
+      "scope": [
+        "constant.language.python",
+        "constant.other.caps.python"
+      ],
+      "settings": {
+        "foreground": "#e67e22"
+      }
+    },
+    {
+      "name": "Python Magic Methods",
+      "scope": [
+        "support.function.magic.python",
+        "entity.name.function.magic.python",
+        "variable.parameter.special.self.python"
+      ],
+      "settings": {
+        "foreground": "#e67e22",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python Exception Handling",
+      "scope": [
+        "support.type.exception.python",
+        "keyword.control.exception.python"
+      ],
+      "settings": {
+        "foreground": "#e74c3c"
+      }
+    },
+    {
+      "name": "Python Type Hints",
+      "scope": [
+        "meta.type.python",
+        "support.type.python",
+        "storage.type.hint.python"
+      ],
+      "settings": {
+        "foreground": "#f39c12"
       }
     },
     {
@@ -628,10 +1025,106 @@
       "scope": [
         "variable.other.php",
         "variable.other.property.php",
-        "variable.other.global.php"
+        "variable.other.global.php",
+        "variable.other.property.static.php",
+        "variable.other.global.php",
+        "variable.other.global.predefined.php"
       ],
       "settings": {
         "foreground": "#2d323c"
+      }
+    },
+    {
+      "name": "PHP Functions",
+      "scope": [
+        "support.function.construct.output.php",
+        "support.function.construct.php",
+        "support.function.destruct.php",
+        "entity.name.function.php",
+        "variable.function.php",
+        "meta.function-call.php",
+        "meta.function-call.static.php",
+        "meta.function-call.object.php"
+      ],
+      "settings": {
+        "foreground": "#3498db"
+      }
+    },
+    {
+      "name": "PHP Classes",
+      "scope": [
+        "support.class.php",
+        "entity.name.type.class.php",
+        "support.class.built-in.php",
+        "entity.other.inherited-class.php",
+        "storage.modifier.extends.php",
+        "storage.modifier.implements.php"
+      ],
+      "settings": {
+        "foreground": "#f39c12",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "PHP Keywords",
+      "scope": [
+        "keyword.control.php",
+        "keyword.other.php",
+        "storage.type.php",
+        "storage.modifier.php",
+        "keyword.operator.class.php"
+      ],
+      "settings": {
+        "foreground": "#8e44ad",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "PHP Constants",
+      "scope": [
+        "constant.other.php",
+        "support.constant.core.php",
+        "support.constant.std.php",
+        "constant.language.php"
+      ],
+      "settings": {
+        "foreground": "#e67e22"
+      }
+    },
+    {
+      "name": "PHP Magic Constants",
+      "scope": [
+        "constant.other.magic.php"
+      ],
+      "settings": {
+        "foreground": "#e67e22",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "PHP Operators",
+      "scope": [
+        "keyword.operator.arithmetic.php",
+        "keyword.operator.assignment.php",
+        "keyword.operator.comparison.php",
+        "keyword.operator.increment-decrement.php",
+        "keyword.operator.logical.php",
+        "keyword.operator.other.php"
+      ],
+      "settings": {
+        "foreground": "#1abc9c"
+      }
+    },
+    {
+      "name": "PHP Arrays",
+      "scope": [
+        "meta.array.php",
+        "meta.array.assignment.php",
+        "meta.array.object.php",
+        "meta.array.definition.php"
+      ],
+      "settings": {
+        "foreground": "#e67e22"
       }
     },
     {
@@ -657,6 +1150,194 @@
       ],
       "settings": {
         "foreground": "#f39c12"
+      }
+    },
+    {
+      "name": "Go Functions",
+      "scope": [
+        "entity.name.function.go",
+        "meta.function-call.go",
+        "support.function.go",
+        "meta.function-call.generic.go"
+      ],
+      "settings": {
+        "foreground": "#3498db"
+      }
+    },
+    {
+      "name": "Go Keywords",
+      "scope": [
+        "keyword.control.go",
+        "storage.type.go",
+        "storage.modifier.go",
+        "keyword.channel.go",
+        "keyword.package.go",
+        "keyword.import.go",
+        "keyword.function.go",
+        "keyword.type.go",
+        "keyword.const.go",
+        "keyword.var.go",
+        "keyword.struct.go",
+        "keyword.interface.go",
+        "keyword.map.go",
+        "keyword.select.go",
+        "keyword.range.go",
+        "keyword.goto.go",
+        "keyword.fallthrough.go"
+      ],
+      "settings": {
+        "foreground": "#8e44ad",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Go Types",
+      "scope": [
+        "storage.type.numeric.go",
+        "storage.type.string.go",
+        "storage.type.uintptr.go",
+        "storage.type.unsafe.go",
+        "storage.type.error.go",
+        "storage.type.builtin.go",
+        "entity.name.type.go"
+      ],
+      "settings": {
+        "foreground": "#f39c12"
+      }
+    },
+    {
+      "name": "Go Constants",
+      "scope": [
+        "constant.language.go",
+        "constant.numeric.go"
+      ],
+      "settings": {
+        "foreground": "#e67e22"
+      }
+    },
+    {
+      "name": "Go Packages",
+      "scope": [
+        "support.package.go",
+        "variable.other.assignment.go"
+      ],
+      "settings": {
+        "foreground": "#e67e22"
+      }
+    },
+    {
+      "name": "Go Receivers",
+      "scope": [
+        "variable.parameter.go",
+        "variable.other.receiver.go"
+      ],
+      "settings": {
+        "foreground": "#e67e22"
+      }
+    },
+    {
+      "name": "Go Struct Fields",
+      "scope": [
+        "variable.other.field.go",
+        "entity.other.attribute-name.go"
+      ],
+      "settings": {
+        "foreground": "#2d323c"
+      }
+    },
+    {
+      "name": "Dart Classes",
+      "scope": [
+        "entity.name.type.class.dart",
+        "support.class.dart",
+        "entity.other.inherited-class.dart",
+        "meta.class.dart"
+      ],
+      "settings": {
+        "foreground": "#f39c12",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Dart Functions",
+      "scope": [
+        "entity.name.function.dart",
+        "meta.function-call.dart",
+        "support.function.dart",
+        "variable.function.dart"
+      ],
+      "settings": {
+        "foreground": "#3498db"
+      }
+    },
+    {
+      "name": "Dart Keywords",
+      "scope": [
+        "keyword.declaration.dart",
+        "storage.type.primitive.dart",
+        "keyword.control.dart",
+        "storage.modifier.dart",
+        "keyword.other.dart",
+        "keyword.control.new.dart"
+      ],
+      "settings": {
+        "foreground": "#8e44ad",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Dart Variables",
+      "scope": [
+        "variable.other.readwrite.dart",
+        "variable.other.object.dart",
+        "variable.other.property.dart"
+      ],
+      "settings": {
+        "foreground": "#2d323c"
+      }
+    },
+    {
+      "name": "Dart Parameters",
+      "scope": [
+        "variable.parameter.dart",
+        "meta.parameter.dart"
+      ],
+      "settings": {
+        "foreground": "#e67e22"
+      }
+    },
+    {
+      "name": "Dart Constants",
+      "scope": [
+        "constant.other.dart",
+        "variable.other.constant.dart"
+      ],
+      "settings": {
+        "foreground": "#e67e22"
+      }
+    },
+    {
+      "name": "Flutter Widgets",
+      "scope": [
+        "support.class.dart",
+        "entity.name.type.class.widget",
+        "support.type.core.flutter",
+        "support.class.std-widgets.dart"
+      ],
+      "settings": {
+        "foreground": "#e67e22",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Flutter Properties",
+      "scope": [
+        "meta.class.body.flutter",
+        "variable.other.property.dart",
+        "meta.method-call.dart"
+      ],
+      "settings": {
+        "foreground": "#2d323c"
       }
     },
     {
