@@ -6,7 +6,7 @@
   <p>A premium, eye-friendly, and modern syntax-highlighting theme optimized for long coding sessions</p>
 </div>
 
-## 🌟 Features
+## Features
 
 - **Three theme variants** for different coding environments
 - **Highly readable color contrast** for improved readability
@@ -59,11 +59,11 @@ Famous Dev Theme provides comprehensive syntax highlighting for:
 
 We welcome contributions! Please see our [contributing guidelines](CONTRIBUTING.md) for more details.
 
-## ⚖️ License
+## License
 
 This theme is released under the [MIT License](LICENSE.md).
 
-## 📞 Support
+## Support
 
 If you encounter any issues or have suggestions, please [open an issue](https://github.com/GausAlMunirTushar/famous-dev-theme/issues) on GitHub.
 
